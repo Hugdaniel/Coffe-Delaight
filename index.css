@@ -137,5 +137,32 @@ body{
     font-weight: bold;
 }
 
+/* seccion contacto */
+
+#contacto{
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+#contacto h3{
+    text-align: center;
+}
+.form fieldset{
+    
+    padding: 20px;
+}
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+
+
   
 
