@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --menu: #683527;
+    --bacground: #E67F0D;
+    --txt: #EDFFAB;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+}
