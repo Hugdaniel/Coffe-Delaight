@@ -8,6 +8,9 @@
     --bacground: #E67F0D;
     --txt: #EDFFAB;
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 body{
     font-family: Poppins, sans-serif;
@@ -56,7 +59,9 @@ body{
 
 .title{
     text-align: center;
-    padding: 20px 0;
+    padding: 80px 0;
+    margin-top: 50px;
+    margin-bottom: 80px;
 }
 .title h2{
     font-size: 2.2em;
@@ -69,10 +74,10 @@ body{
 }
 
 .btn{
-    width: 150px;
+    width: 200px;
     border: 0;
     border-radius: 35px;
-    padding: 4px;
+    padding: 8px;
     background-color: #E67F0D;
     transition: transform 0.3s ease-in-out;
 }
@@ -91,6 +96,8 @@ body{
     display: flex;
     align-items: center;
     padding: 25px;
+    margin-top: 80px;
+    margin-bottom: 180px;
 }
 
 #sobrenosotros .img img{
@@ -108,7 +115,8 @@ body{
 #menu{
     max-width: 100%;
     padding: 25px;
-    margin: 25px 0;
+    margin-top: 90px;
+    margin-bottom: 100px;
     background-color: rgba(192, 192, 192, 0.623);
 }
 
@@ -140,13 +148,10 @@ body{
 /* seccion contacto */
 
 #contacto{
-    width: 60%;
-    margin: 25px auto;
+    margin: 100px auto;
 
    
     width: 80%;
-    margin-top: 25px;
-    margin-bottom: 30px;
 }
 #contacto h3{
     text-align: center;
@@ -202,5 +207,130 @@ input[type="submit"]:hover{
     color: #ccc;
 }
 
-  
+/* pie de pagina */
 
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--menu);
+    padding: 40px 90px;
+}
+
+.iconos{
+    margin-top: 15px;
+}
+
+.iconos a{
+    color: #ccc;
+    font-size: 1.5em;
+    letter-spacing: 1em;
+    transition: color 0.4s ease-in-out;
+}
+
+.copy{
+    color: azure;
+    
+}
+
+.copy h4{
+    font-size: 1.1em;
+}
+
+.copy p{
+    font-weight: 300;
+    font-size: 0.9em;
+}
+
+ .iconos a:hover{
+    color: darkblue;
+
+ }
+ 
+ /* media query */
+
+ 
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+    /* Sección del menú */
+    #inicio {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+    }
+
+    .menu ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    /* Sección hero */
+    .banner img {
+        height: auto;
+        width: 100%;
+    }
+
+    .title h2 {
+        font-size: 1.8em;
+    }
+
+    .btn {
+        width: 100px;
+        padding: 6px;
+    }
+
+    /* Sección Sobre Nosotros */
+    #sobrenosotros {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #sobrenosotros .img img {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .description {
+        margin-top: 20px;
+        text-align: justify;
+    }
+
+    /* Sección del menú */
+    .menu-section {
+        width: 100%;
+        margin: 0;
+    }
+
+    .menu-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .price {
+        margin-top: 10px;
+    }
+
+    /* Sección contacto */
+    #contacto {
+        width: 90%;
+        margin: 8px auto;
+    }
+
+    /* Footer */
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .copy {
+        margin-top: 20px;
+    }
+
+    .iconos a {
+        font-size: 2em;
+        letter-spacing: 0.5em;
+    }
+}
