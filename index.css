@@ -144,6 +144,9 @@ body{
     margin: 25px auto;
 
    
+    width: 80%;
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 #contacto h3{
     text-align: center;
@@ -153,7 +156,6 @@ body{
     padding: 20px;
     border-radius: 0 20px 0 20px;
     box-sizing: border-box;
-    border-color: ;
 }
 .form {
     width: 100%;
@@ -162,11 +164,13 @@ body{
     gap: 10px;
 
 
+
 }
 
 label{
     margin-bottom: 5px;
 }
+
 
 input[type="submit"]{
     margin: 5px auto;
@@ -197,7 +201,6 @@ input[type="submit"]:hover{
     box-shadow: 6px 6px 8px black;
     color: #ccc;
 }
- 
 
   
 
