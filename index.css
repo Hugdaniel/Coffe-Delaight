@@ -109,7 +109,7 @@ body{
     max-width: 100%;
     padding: 25px;
     margin: 25px 0;
-    background-color: var(--txt);
+    background-color: rgba(192, 192, 192, 0.623);
 }
 
 #menu h3{
@@ -136,6 +136,68 @@ body{
 .price{
     font-weight: bold;
 }
+
+/* seccion contacto */
+
+#contacto{
+    width: 60%;
+    margin: 25px auto;
+
+   
+}
+#contacto h3{
+    text-align: center;
+}
+.form fieldset{
+    
+    padding: 20px;
+    border-radius: 0 20px 0 20px;
+    box-sizing: border-box;
+    border-color: ;
+}
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+input[type="submit"]{
+    margin: 5px auto;
+    width: 150px;
+    padding: 5px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #0dbbe6;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%; /* Ocupa el 100% del ancho disponible */
+  padding: 10px; /* Añade espacio interno para que sea más cómodo escribir */
+  margin-bottom: 15px; /* Espaciado debajo de cada input */
+  border: 1px solid #ccc; /* Bordes del input */
+  border-radius: 5px; /* Bordes redondeados */
+  box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el tamaño total del input */
+}
+.submit{
+    display: block;
+    margin: 0 auto;
+}
+input[type="submit"]:hover{
+    background-color: #E67F0D;
+    border: none;
+    box-shadow: 6px 6px 8px black;
+    color: #ccc;
+}
+ 
 
   
 
