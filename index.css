@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --menu: #683527;
+    --bacground: #E67F0D;
+    --txt: #EDFFAB;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    overflow-x: 0;
+}
+
+/* seccion menu  */
+#inicio{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--menu);
+    height: 80px;
+    align-items: center;
+}
+
+ .menu ul li{
+    display: inline;
+    list-style-type: none;
+ }
+
+ .menu a{
+    margin-right: 8px;
+    text-decoration: none;
+    color: gainsboro;
+    transition: color 0.3s ease-in-out, border-bottom 0.3s ease-in-out;
+ }
+
+ .menu a:hover{
+    color: #EDFFAB;
+    border-bottom: 1px solid var(--txt);
+ }
+
+ .logo{
+    color: #EDFFAB;
+ }
+
+ /* seccion hero  */
+
+.banner{
+    display: block;
+}
+.banner img{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.title{
+    text-align: center;
+    padding: 20px 0;
+}
+.title h2{
+    font-size: 2.2em;
+}
+
+.title p{
+    font-weight: 300;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.btn{
+    width: 150px;
+    border: 0;
+    border-radius: 35px;
+    padding: 4px;
+    background-color: #E67F0D;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+/* seccion sobre nosotros */
+#sobrenosotros{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+#sobrenosotros .img img{
+    max-width: 450px;
+    height: auto;
+    margin-right: 25px;
+}
+
+.description{
+    flex: 1;
+    font-weight: 300;
+}
+
+/* seccion menu */
+#menu{
+    max-width: 100%;
+    padding: 25px;
+    margin: 25px 0;
+    background-color: var(--txt);
+}
+
+#menu h3{
+    font-size: 1.8em;
+    border-bottom: 1px solid black;
+}
+
+.menu-section{
+    width: 65%;
+    margin: 25px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.menu-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.418);
+
+}
+.price{
+    font-weight: bold;
+}
+
+  
+
